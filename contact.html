@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Travel Stories - Home</title>
+	<link rel="stylesheet" href="css/style1.css">
+	<link rel="stylesheet" href="css/navmobile.css">
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/navmobile.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<nav class="lscreen">
+			<a href="karnataka.html">Karnataka</a>
+			<a href="kerala.html">Kerala</a>
+			<a href="index.html"><h3>Travel Stories</h3></a>
+			<a href="food.html">Food</a>
+			<a href="contact.html"  class="active">Contact</a>
+		</nav>
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+			<a href="index.html" class="active">Travel Stories</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks">
+			<a href="karnataka.html">Karnataka</a>
+			<a href="kerala.html">Kerala</a>
+			<a href="food.html">Food</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+		</div>
+	</header>
+	<main>
+		<section class = "contact">
+			<h2>Contact</h2>
+			<p>Feel free to contact me!</p>
+			<form>
+			<label>First Name:<br><input type="text" name="fname" required><br></label><br>
+			<label>Middle Name:<br><input type="text" name="mname"><br></label><br>
+			<label>Last Name:<br><input type="text" name="lname" required><br></label><br>
+			<label>Enter email address:<br><input type="email" id="email_addr" name="email1" required></label><br><br>
+			<label>Message: <br><input type="text" id="msg" name="message" required></label><br><br><br>
+			<input type = "submit" value = "Final Submit"/>	<input type = "reset" value = "Cancel"/>
+			</form>
+
+		</section>
+		
+		<aside class="bottom-nav">
+			<a href="karnataka.html"><img src="img/chik2.jpg" alt="Karnataka" title="Karnataka"/>Karnataka</a>
+			<a href="kerala.html"><img src="img/alpy1.jpg" alt="Kerala" title="Kerala"/>Kerala</a>
+			<a href="food.html"><img src="img/ficebucks.jpg" alt="Food" title="Food"/>Food</a>
+		</aside>
+	</main>
+	<footer>
+		<a href="contact.html">Contact</a> 
+		<h5> &copy; 2020 Travel Stories. All rights reserved.</h5>
+	</footer>
+</body>
+</html>
